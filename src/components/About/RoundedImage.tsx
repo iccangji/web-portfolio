@@ -12,7 +12,7 @@ const RoundedImage: FC<Props> = ({ src, width, height }) => {
   return (
     <Box
       sx={{
-        borderRadius: 150,
+        borderRadius: 20,
         overflow: 'hidden',
         width,
         height,

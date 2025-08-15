@@ -1,5 +1,5 @@
 export const skillCategories = [
   'Language',
-  'Tools/Framework',
+  'Tools & Framework',
   'DBMS',
 ] as const;

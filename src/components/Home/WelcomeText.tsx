@@ -26,7 +26,7 @@ const WelcomeText: FC<Props> = ({ isDark }) => {
           <Text
             weight='bold'
             sx={{
-              fontSize: 36,
+              fontSize: 32,
               '@media (min-width: 768px)': {
                 fontSize: 42,
               },
@@ -35,19 +35,23 @@ const WelcomeText: FC<Props> = ({ isDark }) => {
           >
             Muh. Nur Iksan
           </Text>
-          <TypeAnimation
-            sequence={[
-              'IT Student',
-              2000,
-              'Software Development Enthusiast',
-              2000,
-              'Mobile App Developer',
-              2000,
-            ]}
-            cursor={true}
-            repeat={Infinity}
-            className={classes.gradientText}
-          />
+          <div style={{ minHeight: "54px", display: "flex", justifyContent: "start", alignItems: "start", paddingTop: "8px" }}>
+            <TypeAnimation
+              sequence={[
+                'Informatics Engineering Fresh Graduate',
+                2000,
+                'Web Development Enthusiast',
+                2000,
+                'Mobile Development Enthusiast',
+                2000,
+              ]}
+              cursor={true}
+              repeat={Infinity}
+              className={classes.gradientText}
+              wrapper='span'
+              style={{ whiteSpace: "normal", wordBreak: "break-word", maxWidth: "300px" }}
+            />
+          </div>
           {/* </Text> */}
         </Box>
         <Text

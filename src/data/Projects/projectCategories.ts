@@ -1,4 +1,4 @@
 export const projectCategories = [
-  'Mobile',
-  'Website',
+  'Web',
+  'Mobile App',
 ] as const;

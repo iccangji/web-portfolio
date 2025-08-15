@@ -11,9 +11,9 @@ const SkillsPage = () => {
       <NextSeo title='Skills' />
       <Text size={42} weight='bold'>
         Skills
-      </Text> 
+      </Text>
       <Tabs defaultValue='language' variant='pills' color='orange' mt='md'>
-        <Tabs.List grow>
+        <Tabs.List>
           {skillCategories.map((category) => (
             <Tabs.Tab value={category.toLowerCase()} key={category}>
               {category}

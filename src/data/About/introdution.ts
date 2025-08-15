@@ -1,8 +1,5 @@
 export const introduction: string[] = [
-  "Hi everyone, my name is Muh. Nur Iksan. I'm a Mobile App Developer, Sotfware Development Enthusiast, IT Student at Universitas Halu Oleo",
-  `I live in Kendari, Indonesia. I'm ${calculateAge(
-    new Date('2003-02-19')
-  )} years old. I always increase my curiosity by seeking answers from those curious.`,
+  "I am a fresh graduate in Informatics Engineering with passion for full-stack web development and mobile application development.", "Through various projects, I have developed skills in backend development, frontend development, and Android app development. I am a technology-driven learner who continuously seeks new knowledge to enhance my expertise.", " In my free time, I enjoy experimenting with new frameworks and building application prototypes. My passion lies in software engineering, data processing, and cloud-based application development."
 ];
 
 function calculateAge(birthday: Date) {

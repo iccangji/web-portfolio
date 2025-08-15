@@ -70,22 +70,22 @@ const ProjectCard: FC<Props> = ({ project }) => {
                 </ActionIcon>
               </Box>
             </Link>
-          )} 
+          )}
         </Box>
       </Box>
       <Image
-          src={`/images/project/${project.image}`}
-          alt={project.name}
-          style={{
-            pointerEvents: 'none',
-            objectFit: 'contain',
-            marginTop: 10,
-            marginBottom: 10
-          }}
-          width={800}
-          height={400}
-          layout='responsive'
-        />
+        src={`/images/project/${project.image}`}
+        alt={project.name}
+        style={{
+          pointerEvents: 'none',
+          objectFit: 'contain',
+          marginTop: 10,
+          marginBottom: 10
+        }}
+        width={800}
+        height={400}
+        layout='responsive'
+      />
       <Text my='md' sx={{ flexGrow: 2 }}>
         {project.desc}
       </Text>

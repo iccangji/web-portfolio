@@ -22,6 +22,11 @@ export const contacts: Contact[] = [
   //   link: 'https://codeberg.org/tfkhdyt',
   // },
   {
+    name: 'LinkedIn',
+    label: 'Muh. Nur Iksan',
+    link: 'https://www.linkedin.com/in/muh-nur-iksan/',
+  },
+  {
     name: 'GitHub',
     label: 'iccangji',
     link: 'https://github.com/iccangji',
@@ -41,11 +46,6 @@ export const contacts: Contact[] = [
   //   label: '@tfkhdyt142',
   //   link: 'https://twitter.com/tfkhdyt142',
   // },
-  {
-    name: 'LinkedIn',
-    label: 'Muh. Nur Iksan',
-    link: 'https://www.linkedin.com/in/muh-nur-iksan/',
-  },
   {
     name: 'Instagram',
     label: '@mnur.iccang',

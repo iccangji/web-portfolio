@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         <Grid align='center' sx={{ width: '90%' }}>
           <IllustrationImage
             src='/images/avatar.png'
-            width={300}
-            height={300}
+            width={280}
+            height={280}
           />
           <WelcomeText isDark={isDark} />
         </Grid>

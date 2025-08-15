@@ -12,7 +12,7 @@ const ProjectsPage = () => {
       <Text size={42} weight='bold'>
         Projects
       </Text>
-      <Tabs defaultValue='mobile' variant='pills' color='orange' mt='md'>
+      <Tabs defaultValue='web' variant='pills' color='orange' mt='md'>
         <Tabs.List grow>
           {projectCategories.map((category) => (
             <Tabs.Tab value={category.toLowerCase()} key={category}>
